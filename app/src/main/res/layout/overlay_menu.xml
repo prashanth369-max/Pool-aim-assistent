@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/bg_menu_panel">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aim Assist"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:paddingBottom="4dp" />
+
+    <Switch
+        android:id="@+id/switch_direct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show direct shots"
+        android:textColor="#FFFFFF" />
+
+    <Switch
+        android:id="@+id/switch_bank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show bank shots"
+        android:textColor="#FFFFFF" />
+
+    <Switch
+        android:id="@+id/switch_visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Overlay visible"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Line thickness"
+        android:textColor="#FFFFFF" />
+
+    <SeekBar
+        android:id="@+id/seek_thickness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="12" />
+
+    <Button
+        android:id="@+id/btn_clear_target"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear target" />
+
+</LinearLayout>
